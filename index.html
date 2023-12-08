@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azeadrr Portfolio</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background-color: #007BFF;
+      color: #fff;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: large;
+      padding: 1em;
+      position: static;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+        color: #fff; 
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+        color: #99ccff;
+    }
+    section {
+      padding: 2em;
+    }
+
+    #intro img {
+      width: 100%;
+      margin-bottom: 1em;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #fff;
+      background-color: #333;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color:#007BFF;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .feature {
+      margin-bottom: 2em;
+    }
+
+    .feature img {
+      width: 30%;
+      border-radius: 8px;
+      margin-bottom: 1em;
+    }
+
+    .team-member a {
+      display: block;
+      margin-bottom: 0.5em;
+      color: #333;
+      text-decoration: none;
+    }
+
+    #video-container {
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 2em;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #video-container video {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: static;
+    width: 100%;
+    bottom: 0;
+    z-index: 1000;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="img/pic.jpg" alt="Your Profile Image" style="width: 150px; border-radius: 30%;">
+    <p>Software engering student</p>
+    <nav>
+      <ul>
+        
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <div>
+      <img src="img/pic overview.png" alt="Your Profile Image" style="width: 150px;">
+      <h2>high School managment</h2>
+      <p>my project is desktop application for managment high school for generate a school</p>
+      <a href="https://github.com/azeadrr/highschoolmanagment" class="button" target="blank">Visit App on GitHub</a>
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>Features</h2>
+
+    <div class="feature">
+      <img src="./img/LOGIN.jpg">
+      <h3>login form</h3>
+      <p>login form linked with a database admin he has a user and password <br/>for admin access to application</p>
+    </div>
+
+    <div class="feature">
+      <img src="./img/DASHBORD.jpg" alt="dashbord">
+      <h3>dashbord</h3>
+      <p>dashbord this page have 6 icons (pages) <br/> these icons lead to pages containing data such as students <br/>and teachers data and events and logout icon for close application</p>
+    </div>
+
+    <div class="feature">
+      <img src="./img/STDUNT.jpg" alt="student">
+      <h3>student page</h3>
+      <p>For example, this page is the student page for entering student data, such as <br/>their names, gender, and the group they belong to, as well as their residential address.</p>
+    </div>
+
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>my project is desktop application for managment high school for generate a school data
+      login form linked with a database admin he has a user and password
+      for admin access to application
+      in dashbord this page have 6 icons
+      these icons lead to pages containing data such as students
+      and teachers data and events and logout icon for close application
+      For example, this page is the student page for entering student data, such as
+      their names, gender, and the group they belong to, as well as their residential address
+      in every page we have 6 button [load] for search by date or name or any element and [Add] button for add a new student or teacher [Edit] for edit a wrong information [delete] button for delete a student and [Empty] button for empty all textbox <br/>and [Print Pdf] for print paper she has an information</p>
+
+  </section>
+  <section id="video-container">
+    <h2>Project Overview Video</h2>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/pGhGojQhpjE" frameborder="0" allowfullscreen></iframe>
+  </section>
+  <footer>
+    <a href="https://github.com/azeadrr" target="blank">GitHub</a>
+    <a href="https://twitter.com/yourtwitterhandle" target="blank">Twitter</a>
+  </footer>
+</body>
+</html>
